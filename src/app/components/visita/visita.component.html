@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <img src="../../assets/img/jbqper.png" />
+    </div>
+    <div class="col-sm">
+      <h1>Cerca de usted</h1>
+      <table class="table table-sm">
+        <thead>
+          <tr>
+            <th scope="col">Especie</th>
+            <th scope="col">Imagen</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Especie Uno</td>
+            <td>
+              <a [routerLink]="[ '/infoespecie', 1 ]">
+                <img src='../../assets/img/00028.jpg' width="60" height="60" />
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Especie Dos</td>
+            <td>
+              <a [routerLink]="[ '/infoespecie', 2 ]">
+                <img src='../../assets/img/00029.jpg' width="60" height="60" />
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Especie Tres</td>
+            <td>
+              <a [routerLink]="[ '/infoespecie', 3 ]">
+                <img src='../../assets/img/00030.jpg' width="60" height="60" />
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
